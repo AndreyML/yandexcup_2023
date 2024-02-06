@@ -1,2 +1,2 @@
-My solution 30/236th place solution on RecSys task YandexCup23
+My solution 30/236th place to RecSys task YandexCup23
 
