@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "yandexcup23"
+version = "0.1.0"
+description = ""
+authors = ["RussianFreak <alapteff@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pandas = "^2.1.2"
+torch = "^2.1.0"
+numpy = "^1.26.1"
+scikit-learn = "^1.3.2"
+seaborn = "^0.13.0"
+hyperopt = "^0.2.7"
+wandb = "^0.15.12"
+rotary-embedding-torch = "^0.3.5"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
